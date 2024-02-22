@@ -1,0 +1,25 @@
+{
+  "portariaRfidApp": {
+    "cadastroUsuarios": {
+      "home": {
+        "title": "Cadastro Usuarios",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Cadastro Usuarios",
+        "createOrEditLabel": "Create or edit a Cadastro Usuarios",
+        "notFound": "No Cadastro Usuarios found"
+      },
+      "created": "A new Cadastro Usuarios is created with identifier {{ param }}",
+      "updated": "A Cadastro Usuarios is updated with identifier {{ param }}",
+      "deleted": "A Cadastro Usuarios is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Cadastro Usuarios {{ id }}?"
+      },
+      "detail": {
+        "title": "Cadastro Usuarios"
+      },
+      "id": "ID",
+      "codigoRfid": "Codigo Rfid",
+      "dataInclusao": "Data Inclusao"
+    }
+  }
+}

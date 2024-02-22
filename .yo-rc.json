@@ -1,0 +1,19 @@
+{
+  "generator-jhipster": {
+    "applicationIndex": 0,
+    "applicationType": "monolith",
+    "authenticationType": "jwt",
+    "baseName": "portaria_rfid",
+    "clientFramework": "angular",
+    "devServerPort": 4200,
+    "entities": ["UsuariosRegistrados", "CadastroUsuarios", "LogAcesso"],
+    "jhipsterVersion": "8.1.0",
+    "jwtSecretKey": "NGI0NWNkMTY3MDNiODc2Y2UwY2NiNzE0MDdmMzEwZTdiNTc4MTZjZWNlZGM3ZGM3OTk4OTExNDJkNjI0YmVlYTMzMWYxMWZiYmEzZDVjZWQ4ZDg3ZDcxNmQ4YTZiYTA5N2ZlZjU0NDk1MGY2ODcxNjk4ZjNjN2YxNTczMGI0OTI=",
+    "languages": ["en"],
+    "lastLiquibaseTimestamp": 1708637774000,
+    "nativeLanguage": "en",
+    "packageFolder": "br/univesp",
+    "packageName": "br.univesp",
+    "prodDatabaseType": "mysql"
+  }
+}

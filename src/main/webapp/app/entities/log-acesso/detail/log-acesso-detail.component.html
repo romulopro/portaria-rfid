@@ -1,0 +1,38 @@
+<div class="d-flex justify-content-center">
+  <div class="col-8">
+    @if (logAcesso) {
+      <div>
+        <h2 data-cy="logAcessoDetailsHeading"><span jhiTranslate="portariaRfidApp.logAcesso.detail.title">Log Acesso</span></h2>
+
+        <hr />
+
+        <jhi-alert-error></jhi-alert-error>
+
+        <jhi-alert></jhi-alert>
+
+        <dl class="row-md jh-entity-details">
+          <dt><span jhiTranslate="global.field.id">ID</span></dt>
+          <dd>
+            <span>{{ logAcesso.id }}</span>
+          </dd>
+          <dt><span jhiTranslate="portariaRfidApp.logAcesso.codigoRfid">Codigo Rfid</span></dt>
+          <dd>
+            <span>{{ logAcesso.codigoRfid }}</span>
+          </dd>
+          <dt><span jhiTranslate="portariaRfidApp.logAcesso.dataAcesso">Data Acesso</span></dt>
+          <dd>
+            <span>{{ logAcesso.dataAcesso | formatMediumDate }}</span>
+          </dd>
+        </dl>
+
+        <button type="submit" (click)="previousState()" class="btn btn-info" data-cy="entityDetailsBackButton">
+          <fa-icon icon="arrow-left"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back">Back</span>
+        </button>
+
+        <button type="button" [routerLink]="['/log-acesso', logAcesso.id, 'edit']" class="btn btn-primary">
+          <fa-icon icon="pencil-alt"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit">Edit</span>
+        </button>
+      </div>
+    }
+  </div>
+</div>

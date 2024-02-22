@@ -1,0 +1,28 @@
+
+application {
+  config {
+    baseName portaria_rfid
+    applicationType monolith
+    packageName br.univesp
+    authenticationType jwt
+    prodDatabaseType mysql
+    clientFramework angularX
+  }
+  entities *
+}
+
+entity UsuariosRegistrados {
+	Nome String required minlength(4)
+    CodigoRfid String required
+
+}
+
+entity CadastroUsuarios {
+	CodigoRfid String required
+    DataInclusao LocalDate required
+}
+
+entity LogAcesso {
+	CodigoRfid String required
+    DataAcesso LocalDate required
+}

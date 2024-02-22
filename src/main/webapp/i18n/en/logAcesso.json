@@ -1,0 +1,25 @@
+{
+  "portariaRfidApp": {
+    "logAcesso": {
+      "home": {
+        "title": "Log Acessos",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Log Acesso",
+        "createOrEditLabel": "Create or edit a Log Acesso",
+        "notFound": "No Log Acessos found"
+      },
+      "created": "A new Log Acesso is created with identifier {{ param }}",
+      "updated": "A Log Acesso is updated with identifier {{ param }}",
+      "deleted": "A Log Acesso is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Log Acesso {{ id }}?"
+      },
+      "detail": {
+        "title": "Log Acesso"
+      },
+      "id": "ID",
+      "codigoRfid": "Codigo Rfid",
+      "dataAcesso": "Data Acesso"
+    }
+  }
+}

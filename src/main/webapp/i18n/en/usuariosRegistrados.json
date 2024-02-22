@@ -1,0 +1,25 @@
+{
+  "portariaRfidApp": {
+    "usuariosRegistrados": {
+      "home": {
+        "title": "Usuarios Registrados",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Usuarios Registrados",
+        "createOrEditLabel": "Create or edit a Usuarios Registrados",
+        "notFound": "No Usuarios Registrados found"
+      },
+      "created": "A new Usuarios Registrados is created with identifier {{ param }}",
+      "updated": "A Usuarios Registrados is updated with identifier {{ param }}",
+      "deleted": "A Usuarios Registrados is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Usuarios Registrados {{ id }}?"
+      },
+      "detail": {
+        "title": "Usuarios Registrados"
+      },
+      "id": "ID",
+      "nome": "Nome",
+      "codigoRfid": "Codigo Rfid"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "annotations": {
+    "changelogDate": "20240222213414"
+  },
+  "applications": ["portaria_rfid"],
+  "entityTableName": "usuarios_registrados",
+  "fields": [
+    {
+      "fieldName": "nome",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "minlength"],
+      "fieldValidateRulesMinlength": "4"
+    },
+    {
+      "fieldName": "codigoRfid",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "name": "UsuariosRegistrados",
+  "relationships": [],
+  "searchEngine": "no"
+}

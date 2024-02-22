@@ -1,0 +1,22 @@
+{
+  "annotations": {
+    "changelogDate": "20240222213614"
+  },
+  "applications": ["portaria_rfid"],
+  "entityTableName": "log_acesso",
+  "fields": [
+    {
+      "fieldName": "codigoRfid",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "dataAcesso",
+      "fieldType": "LocalDate",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "name": "LogAcesso",
+  "relationships": [],
+  "searchEngine": "no"
+}
